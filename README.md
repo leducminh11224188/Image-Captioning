@@ -6,7 +6,7 @@ An end-to-end image captioning system that generates natural language descriptio
 
 ---
 
-## 📌 Highlights
+## Highlights
 
 - **23.5M parameter** Transformer-based decoder with multi-head attention
 - Pretrained **EfficientNet-B0** encoder (frozen) for efficient feature extraction
@@ -16,7 +16,7 @@ An end-to-end image captioning system that generates natural language descriptio
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Input Image (224×224)
@@ -54,7 +54,7 @@ Input Image (224×224)
 
 ---
 
-## 📊 Results
+## Results
 
 ### Training (15 epochs, ~38 min on Kaggle GPU)
 
@@ -78,15 +78,15 @@ Input Image (224×224)
 
 | Image | Generated Caption |
 |---|---|
-| 🏞️ Outdoor scene | *a man in a green shirt and jeans is standing in front of a tree* |
-| 🔧 Workers | *two men are working on a machine* |
-| 👧 Child playing | *a little girl in a pink dress is sitting on a wooden bench* |
-| 🏠 Building | *a man on a ladder painting a building* |
-| 🍳 Kitchen | *two men cooking in a kitchen* |
+| Outdoor scene | *a man in a green shirt and jeans is standing in front of a tree* |
+| Workers | *two men are working on a machine* |
+| Child playing | *a little girl in a pink dress is sitting on a wooden bench* |
+| Building | *a man on a ladder painting a building* |
+| Kitchen | *two men cooking in a kitchen* |
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -146,7 +146,7 @@ print(caption)
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── app.py                              # Gradio web interface
@@ -161,7 +161,7 @@ print(caption)
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **PyTorch** — Model training & inference
 - **Torchvision** — EfficientNet-B0 backbone & image transforms
@@ -171,7 +171,7 @@ print(caption)
 
 ---
 
-## 📚 Dataset
+## Dataset
 
 **Flickr30k** — 31,783 images with 5 human-annotated captions each (158,915 total captions).
 
@@ -182,6 +182,6 @@ print(caption)
 
 ---
 
-## 📝 License
+## License
 
 This project is for educational and research purposes.
