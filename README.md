@@ -1,6 +1,6 @@
 # 🖼️ Image Captioning with Transformer
 
-An end-to-end image captioning system that generates natural language descriptions for images using **EfficientNet-B0** as the visual encoder and a **Transformer Decoder** for caption generation, trained on the **Flickr30k** dataset.
+An image captioning system that generates natural language descriptions for images using **EfficientNet-B0** as the visual encoder and a **Transformer Decoder** for caption generation, trained on the **Flickr30k** dataset.
 
 🔗 **Live Demo:** [huggingface.co/spaces/leducminh/Image-Captioning](https://huggingface.co/spaces/leducminh/Image-Captioning)
 
@@ -65,14 +65,15 @@ Input Image (224×224)
 | Optimizer | AdamW (lr=1e-4, warmup 4000 steps) |
 | Batch size | 32 |
 
-### BLEU Scores (beam search, beam_width=3, 500 test samples)
+### Evaluation Metrics (beam search, beam_width=3, 1000 test samples)
 
 | Metric | Score |
 |---|---|
-| **BLEU-1** | **0.685** |
-| **BLEU-2** | **0.522** |
-| **BLEU-3** | **0.397** |
-| **BLEU-4** | **0.294** |
+| **BLEU-1** | **0.681** |
+| **BLEU-2** | **0.516** |
+| **BLEU-3** | **0.387** |
+| **BLEU-4** | **0.282** |
+| **ROUGE-L** | **0.490** |
 
 ### Sample Outputs
 
